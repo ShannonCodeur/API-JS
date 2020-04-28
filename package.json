@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Une A.P.I d'entrée de jeu pour expérimenter Node JS et Express avec MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShannonCodeur/API-JS.git"
+  },
+  "author": "Shannon Codeur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShannonCodeur/API-JS/issues"
+  },
+  "homepage": "https://github.com/ShannonCodeur/API-JS#readme"
+}
