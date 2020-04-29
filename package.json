@@ -4,6 +4,7 @@
   "description": "Une A.P.I d'entrée de jeu pour expérimenter Node JS et Express avec MySQL",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,22 @@
   "bugs": {
     "url": "https://github.com/ShannonCodeur/API-JS/issues"
   },
-  "homepage": "https://github.com/ShannonCodeur/API-JS#readme"
+  "homepage": "https://github.com/ShannonCodeur/API-JS#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie": "^0.4.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-generator": "^4.16.1",
+    "framework": "0.0.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nonce": "^1.0.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
