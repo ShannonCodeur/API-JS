@@ -15,6 +15,11 @@ const mc = mysql.createConnection({
 
 // connect to database
 mc.connect();
+
+app.get('/', (req, res) => {
+	res.send('<br /><br/><h1><center>Hello Shannon</center></h1>');
+});
+
 app.listen(port);
 console.log('API server started on: '+ port);
 
