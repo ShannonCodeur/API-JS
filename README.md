@@ -5,14 +5,14 @@ Une A.P.I REST avec Node JS, Express et MySQL.|
 CREATE SCHEMA apidb;
 
 # Cloner le Projet | Clone the Project
-une commande git clone pointant vers ce dépôt github vous permet de récupérer l'éssentiel de ce code
+git clone https://github.com/ShannonCodeur/API-JS
 
 # Installer les packets | Install Packages
-cd API-JS
-npm install
+- cd API-JS
+- npm install
 
 # Lancer l'application | Launch App
-npm index.js
+npm start
 
 # Tester l'application | Test On Browser
 Your web browser or Postman, Insomnia,...
